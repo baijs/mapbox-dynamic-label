@@ -1,0 +1,30 @@
+{
+  "name": "label-polygon",
+  "version": "1.0.0",
+  "description": "dynamic add label of polygon for mapbox",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "prebuild": "rm -rf lib",
+    "build": "tsc"
+  },
+  "keywords": [
+    "label",
+    "polygon",
+    "mapbox"
+  ],
+  "author": "baijs",
+  "license": "ISC",
+  "dependencies": {
+    "geojson": "^0.5.0",
+    "mapbox-gl": "^0.48.0",
+    "polylabel": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.4",
+    "@types/mapbox-gl": "^0.48.0",
+    "@types/polylabel": "^1.0.5",
+    "@types/turf": "^3.5.32",
+    "turf": "^3.0.14"
+  }
+}
